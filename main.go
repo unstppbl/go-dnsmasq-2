@@ -23,7 +23,7 @@ import (
 	"github.com/unstppbl/go-dnsmasq-2/stats"
 )
 
-// set at build time
+// Version set at build time
 var Version = "dev"
 
 var (
@@ -42,7 +42,7 @@ func init() {
 func main() {
 	app := cli.NewApp()
 	app.Name = "go-dnsmasq"
-	app.Usage = "Lightweight caching DNS server and forwarder\n   Website: http://github.com/janeczku/go-dnsmasq"
+	app.Usage = "Lightweight caching DNS server and forwarder\n"
 	app.UsageText = "go-dnsmasq [global options]"
 	app.Version = Version
 	app.Flags = []cli.Flag{
