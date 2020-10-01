@@ -17,10 +17,10 @@ import (
 	logrus_syslog "github.com/sirupsen/logrus/hooks/syslog"
 	"github.com/urfave/cli"
 
-	hosts "./hostsfile"
-	"./resolvconf"
-	"./server"
-	"./stats"
+	hosts "github.com/unstppbl/go-dnsmasq-2/hostsfile"
+	"github.com/unstppbl/go-dnsmasq-2/resolvconf"
+	"github.com/unstppbl/go-dnsmasq-2/server"
+	"github.com/unstppbl/go-dnsmasq-2/stats"
 )
 
 // set at build time

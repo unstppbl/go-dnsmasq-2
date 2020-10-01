@@ -14,7 +14,7 @@ import (
 	"github.com/rcrowley/go-metrics"
 	"github.com/rcrowley/go-metrics/stathat"
 
-	"../server"
+	"github.com/unstppbl/go-dnsmasq-2/server"
 )
 
 var (

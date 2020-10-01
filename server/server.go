@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
-	"../cache"
 	"github.com/coreos/go-systemd/activation"
 	"github.com/miekg/dns"
 	log "github.com/sirupsen/logrus"
+	"github.com/unstppbl/go-dnsmasq-2/cache"
 )
 
 type server struct {
