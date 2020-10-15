@@ -107,3 +107,7 @@ For example, given a hosts file with the following content:
 ```
 
 Queries for `db2.db.local` would be answered with an A record pointing to 192.168.0.2, while queries for `db1.db.local` would yield an A record pointing to 192.168.0.1.
+
+#### Example environment variabless
+
+`DNSMASQ_LISTEN=0.0.0.0:53 DNSMASQ_RCACHE=200000 DNSMASQ_RCACHE_TTL=86400 DNSMASQ_NDOTS=1 DNSMASQ_VERBOSE=true`
